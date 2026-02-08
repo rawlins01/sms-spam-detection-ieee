@@ -1,14 +1,76 @@
-# SMS Spam Detection (IEEE Report)
+# SMS Spam Detection (Machine Learning Project)
 
-Reproducible pipeline for UCI SMS Spam Collection.
+This project implements a **machine learning pipeline** to classify SMS messages as **Spam** or **Ham (legitimate)** using multiple supervised learning models.
 
-## Setup
-```bash
-pip install -r requirements.txt
+The work was completed as part of an MSc Data Science coursework and focuses on **model comparison, evaluation, and reproducibility**.
+
+---
+
+## 📌 Problem Statement
+Unsolicited spam messages are a common issue in mobile communication.  
+The goal of this project is to build and evaluate machine learning models that can automatically detect spam SMS messages with high accuracy and reliability.
+
+---
+
+## 📊 Dataset
+- **Source:** UCI SMS Spam Collection Dataset  
+- **Size:** 5,500+ SMS messages  
+- **Classes:** Spam / Ham  
+
+Text preprocessing steps include:
+- Lowercasing
+- Tokenization
+- Stopword removal
+- TF-IDF vectorization
+
+---
+
+## 🧠 Models Implemented
+The following models were trained and evaluated:
+
+- **Logistic Regression**
+- **Naive Bayes**
+- **Calibrated Support Vector Machine (SVM)**
+
+Each model was evaluated using standard classification metrics.
+
+---
+
+## 📈 Evaluation Metrics
+- Accuracy  
+- Precision  
+- Recall  
+- F1-score  
+
+Comparative performance analysis was conducted to identify the most effective classifier.
+
+---
+
+## 🛠️ Project Structure
 
 
-## Project Walkthrough (Viva)
-This video explains the problem statement, data preprocessing, model selection and evaluation of the SMS Spam Detection system.
 
-watch the project walkthrough:
-https://drive.google.com/file/d/1vlrKEiAk_ZdFhtMrs8Ma6N9vzJvslFEs/view?usp=sharing
+---
+
+## 🎥 Viva / Project Explanation Video
+A recorded viva presentation explaining the methodology, models, and results is available here:
+
+👉 **[Watch Viva Video](PASTE-YOUR-GOOGLE-DRIVE-LINK-HERE)**
+
+---
+
+## 🎯 Skills Demonstrated
+- Machine Learning (classification)
+- Text preprocessing & NLP
+- Model comparison & evaluation
+- Python (scikit-learn, pandas, numpy)
+- Reproducible ML pipelines
+- Technical communication
+
+---
+
+## 🚀 Future Improvements
+- Hyperparameter tuning
+- Deep learning models (LSTM / Transformer)
+- Deployment as an API or web app
+
